@@ -1,0 +1,2 @@
+pcolor(RTWSTRFDBINT(1).taxis,log2(RTWSTRFDBINT(1).faxis/500),RTWSTRFDBINT(1).Wo1A1/RTWSTRFDBINT(1).PP*fliplr(sum(RTWSTRFDBINT(1).STRF1A1,3))/RTWSTRFDBINT(1).No1A1*sqrt(RTWSTRFDBINT(1).PP))
+pcolor(STRFData(1).taxis,log2(STRFData(1).faxis/500),STRFData(1).Wo1A/STRFData(1).PP*fliplr(sum(STRFData(1).STRF1A,3))/STRFData(1).No1A*sqrt(STRFData(1).PP))
